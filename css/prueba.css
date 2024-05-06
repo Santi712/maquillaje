@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+    display: block;
+
+    margin: 0px auto;
+    font-family: sans-serif;
+    background-color: white;
+	/* evitar los desbordamiento lateral entre navegación y página cortas*/
+	overflow-y: scroll;
+	background-color: #e5e6d2b6;
+}
+a{
+	color: rgb(100, 100, 100);
+	text-decoration: none;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+  }
+
+.item img{
+    height: auto;
+}
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+  }
